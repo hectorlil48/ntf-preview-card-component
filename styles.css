@@ -16,10 +16,15 @@
 }   
 
 body {
-    padding: 60px 20px 0;
+    padding: 3.75rem 1.25rem 0;
     background-color: var(--very-dark-blue-bg);
     font-family: 'Outfit', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 img {
@@ -27,15 +32,14 @@ img {
 }
 
 .container {
-    max-width: 390px;
-    margin: 0 auto;
+    max-width: 24.375rem;
     background-color: var(--very-dark-blue-card);
-    padding: 23px;
-    border-radius: 18px;
+    padding: 1.438rem;
+    border-radius: 1.125rem;
 }
 
 .main-img {
-    border-radius: 8px;
+    border-radius: 0.5rem;
     position: relative;
 }
 
@@ -65,7 +69,7 @@ img {
 h1 {
     font-weight: 400;
     color: var(--white);
-    margin: 20px 8px;
+    margin: 1.25rem 0.5rem;
 }
 
 h1:hover {
@@ -76,7 +80,7 @@ h1:hover {
 p {
     color: var(--soft-blue);
     font-weight: 300;
-    margin: 0 8px 0;
+    margin: 0 0.5rem 0;
 }
 
 /* First paragraph with the line height */
@@ -141,10 +145,10 @@ span:hover {
 /* Attribution */
 
 .attribution {
-    font-size: 13px;
+    font-size: 0.813rem;
     text-align: center;
     color: white;
-    margin-top: 15px;
+    margin-top: 0.938rem;
 }
 
 .attribution a {
