@@ -39,7 +39,7 @@ img {
     position: relative;
 }
 
-.main-img div {
+.hidden-image {
     position: absolute;
     top: 0;
     background-color: hsl(178, 100%, 50%, 60%);
@@ -50,12 +50,12 @@ img {
     transition: opacity 0.3s ease-in-out;
 }
 
-.main-img div:hover {
+.hidden-image:hover {
     opacity: 1;
     cursor: pointer;
 }
 
-.main-img div img {
+.hidden-image img {
     position: absolute;
     left: 50%;
     top: 50%;
