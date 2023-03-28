@@ -31,8 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/hectorlil48/ntf-preview-card-component.git)
-- Live Site URL: [Site](https://hectorlil48.github.io/ntf-preview-card-component/)
+- Solution URL: [Solution](https://hectorlil48.github.io/ntf-preview-card-component/)
 
 ## My process
 
